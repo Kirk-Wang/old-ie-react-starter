@@ -19,3 +19,5 @@
   <li>采用tslint，tslint-react保证代码风格</li>
   <li>采用基于webpack生态的nwb(Javascript Tools)来贯穿整个项目开发（nwb是个不错的开发工具）</li>
 </ol>
+
+![post edition form](./public/demo.png)
