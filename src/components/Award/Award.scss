@@ -1,0 +1,17 @@
+.sec{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  // @include sprite($award-bg100x100);
+
+  img {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+  }
+}

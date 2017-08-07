@@ -1,0 +1,42 @@
+{
+  "name": "old-ie-react-starter",
+  "version": "0.0.1",
+  "description": "old-ie-react-starter",
+  "private": true,
+  "scripts": {
+    "build": "nwb build-web-module src/ --umd",
+    "build:demo": "nwb build-web-app demo/src/index.tsx demo/dist/",
+    "clean": "nwb clean-app demo/dist",
+    "start": "nwb serve-web-app demo/src/ --reload",
+    "test": "nwb test",
+    "test:coverage": "nwb test --coverage",
+    "test:watch": "nwb test --server",
+    "demo": "http-server demo/dist/ -p 3000"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "pure-render-deepcompare-decorator": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.0",
+    "@types/jquery": "^1.x",
+    "@types/react": "^15.0.35",
+    "@types/react-dom": "^0.14.x",
+    "autoprefixer": "^7.1.2",
+    "es3ify-webpack-plugin": "0.0.1",
+    "http-server": "^0.10.0",
+    "nwb": "0.18.x",
+    "nwb-sass": "^0.8.1",
+    "oldie": "^1.3.0",
+    "postcss-assets": "^4.2.0",
+    "ts-loader": "^2.3.2",
+    "tslib": "^1.7.1",
+    "tslint": "^5.5.0",
+    "tslint-react": "^3.2.0",
+    "typescript": "^2.4.2",
+    "webpack-spritesmith": "^0.3.3"
+  },
+  "author": "Kirk Wang",
+  "license": "MIT",
+  "repository": "https://github.com/Kirk-Wang/old-ie-react-starter"
+}

@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "./lib",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": false,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": false,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "paths": {
+      "*": ["./src/*"]
+    },
+    "lib": [
+      "dom",
+      "es2015",
+      "scripthost",
+      "es2015.promise"
+    ]
+  },
+  "include": [
+    "./src/**/*",
+    "./typings/**/*.ts"
+  ]
+}

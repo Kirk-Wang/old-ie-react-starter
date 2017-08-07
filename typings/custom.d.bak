@@ -1,0 +1,49 @@
+interface Window {}
+
+interface Document {}
+
+interface JQueryStatic {}
+
+interface JQuery{}
+
+interface External {}
+
+declare interface ObjectConstructor {
+  assign(target: any, ...sources: any[]): any;
+}
+
+declare module 'pure-render-deepcompare-decorator' {
+  const content: any;
+  export default content;
+}
+
+declare module '*.scss' {
+  const content: any;
+  export default content;
+}
+
+declare module '*.less' {
+  const content: any;
+  export default content;
+}
+
+declare module '*.png' {
+  const content: any;
+  export default content;
+}
+
+declare var require: {
+    <T>(path: string): T;
+    (paths: string[], callback: (...modules: any[]) => void): void;
+    ensure: (paths: string[], callback: (require: <T>(path: string) => T) => void) => void;
+}
+
+declare var process : {
+  env: {
+    NODE_ENV: string;
+  }
+}
+
+declare var __PKGNAME__: string;
+declare var __LOCAL_BUILD__: boolean;
+

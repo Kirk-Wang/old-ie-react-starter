@@ -1,0 +1,16 @@
+@import './function';
+
+body {
+  font-family: "Microsoft YaHei",\5fae\8f6f\96c5\9ed1,arial,\5b8b\4f53;
+}
+
+html, body, #app {
+  width: 100%;
+}
+
+/*
+a:link,a:visited,a:hover,a:active{ 
+    outline:0; 
+    *star:expression(this.onFocus=this.blur());
+}
+*/
