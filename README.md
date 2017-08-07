@@ -20,4 +20,6 @@
   <li>采用基于webpack生态的nwb(Javascript Tools)来贯穿整个项目开发（nwb是个不错的开发工具）</li>
 </ol>
 
+### UMD模块[Demo](https://www.lotteryjs.com/old-ie-react-starter/dist/)
+
 ![post edition form](./public/demo.png)
