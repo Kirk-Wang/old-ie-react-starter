@@ -1,4 +1,4 @@
-# old-ie-react-starter
+# old-ie-react-starter(停止维护～市面上已有qreact可用,据说兼容到ie6+)
 
 > 记得某大神说过：”现如今兼容底版本IE浏览器已不是一种荣耀，而是一种耻辱！“
 
